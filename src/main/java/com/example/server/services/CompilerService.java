@@ -65,7 +65,7 @@ public class CompilerService {
 
         Process process = pb.start();
 
-        boolean finished = process.waitFor(10, TimeUnit.SECONDS); // Increased timeout for interactive programs
+        boolean finished = process.waitFor(10, TimeUnit.SECONDS);
         if (!finished) {
             process.destroyForcibly();
             responseModel.setError(true);
