@@ -1,7 +1,3 @@
-Here’s a **comprehensive README** for your project based on the backend code you provided. It’s structured to explain your Spring Boot services for AI code assistance and code execution.
-
----
-
 # AI Code Assistant & Compiler Service
 
 This project provides a backend system for AI-assisted code operations and code execution. It includes endpoints for **explaining, fixing, optimizing code**, and **running code** in multiple programming languages using Docker-based isolated execution.
@@ -221,12 +217,4 @@ curl -X POST "http://localhost:8080/code/run?language=python" \
 
 ---
 
-## License
 
-MIT License
-
----
-
-I can also create a **full frontend README** showing how the `FixPage` React component works with the `/ai/fix` endpoint, including **copy-to-clipboard and markdown rendering instructions** if you want.
-
-Do you want me to make that as well?
